@@ -19,12 +19,12 @@ System.out.println("COURSE:" +course);
 }
 public class studentApp{
 public static void main ( String[] args){
-Scanner scanner =  new scanner (System.in);
+Scanner scanner =  new Scanner (System.in);
 //prompt the user to student details
 System.out.println("Enter studentID,name and course:");
-int studentID; = scanner nextInt();
-string name; = scanner nextLine();
-string course; = scanner nextLine();
+int studentID = scanner nextInt();
+String name = scanner nextLine();
+String course = scanner nextLine();
 //Instantiate an object
 StudentRecord studcord = new StudentRecord(studentID,name,course);
 System.out.println("student details");
@@ -32,6 +32,7 @@ studcord.displayInfo();
 scanner.close();
 }
 }
+
 
 
 
