@@ -2,10 +2,10 @@ import java.util.Scanner;
 
 public class StudentRecord{
 int studentID;
-string name;
-string course;
+String name;
+String course;
 //constructor
-StudentRecord(int studentID,string name,string course){
+StudentRecord(int studentID,String name,String course){
 this. studentID = studentID;
 this.name = name;
 this.course = course;
@@ -28,10 +28,11 @@ string course; = scanner nextLine();
 //Instantiate an object
 StudentRecord studcord = new StudentRecord(studentID,name,course);
 System.out.println("student details");
-studcord.dispalyInfo();
-Scanner.close();
+studcord.displayInfo();
+scanner.close();
 }
 }
+
 
 
 
